@@ -1,0 +1,9 @@
+---
+- name: simple playbook to ensure httpd service is running.
+  hosts: all
+  tasks: 
+   - name: ensuring httpd is running
+     service:
+      name: httpd
+      state: running
+ 
