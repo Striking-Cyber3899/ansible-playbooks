@@ -5,5 +5,5 @@
    - name: ensuring httpd is running
      service:
       name: httpd
-      state: running
+      state: started
  
